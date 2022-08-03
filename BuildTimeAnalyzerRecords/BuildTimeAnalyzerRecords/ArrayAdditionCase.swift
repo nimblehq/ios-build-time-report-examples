@@ -21,7 +21,9 @@ class ArrayAdditionCase {
         var names = nameIndexes.map { String(format: arrayNameFormat, $0) }
         names.append(NSLocalizedString("everything", comment: ""))
         arrayNames = Array(names[0..<count])
-        arrayNames.append(names.last!)
+        if let lastName = names.last {
+            arrayNames.append(lastName)
+        }
     }
 
     // Cumulative build time: 3.1 ms
@@ -29,7 +31,9 @@ class ArrayAdditionCase {
         let nameIndexes = [1, 2, 3, 4, 5]
         let count = nameIndexes.count - 1
         let names = nameIndexes.map { String(format: arrayNameFormat, $0) } + [NSLocalizedString("everything", comment: "")]
-        arrayNames = Array(names[0..<count]) + [names.last!]
+        if let lastName = names.last {
+            arrayNames = Array(names[0..<count]) + [lastName]
+        }
     }
 
 }
