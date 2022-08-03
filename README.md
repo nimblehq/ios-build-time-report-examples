@@ -20,9 +20,9 @@ An iOS build time analyzer recordings project that contains multiple cases with 
 
 1. Simply clone and build the project - `BuildTimeAnalyzerRecords`.
 2. Install and open the [Build Time Analyzer App](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode). 
-3. Once this project is built successfully, simply find the project in the `Build Time Analyzer App` box and choose it:
+3. Once this project is built successfully, simply find the project in the `Build Time Analyzer` application's project selection box and choose it:
   ![Screen Shot 2022-08-02 at 18 42 10](https://user-images.githubusercontent.com/70877098/182366624-2f12639a-3e10-4d2a-a1d5-250799af1367.png)
-4. The build time reports should be available for your references. Enjoy 🚀
+4. The build time reports should now be available for your reference. Enjoy! 🚀
   ![ios-cumulative-build-time-report-for-all-cases](https://user-images.githubusercontent.com/70877098/182366950-0085a105-dc59-4e13-a77d-189a179a8933.png)
 
 ## License
